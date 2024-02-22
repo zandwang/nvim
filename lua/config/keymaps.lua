@@ -10,8 +10,12 @@ map("i", "<C-p>", "<Up>", { desc = "Up" })
 map("i", "<C-n>", "<Down>", { desc = "Down" })
 map("i", "<C-a>", "<Home>", { desc = "Home" })
 map("i", "<C-e>", "<End>", { desc = "End" })
+map("n", "H", "<Home>", { desc = "Home" })
+map("n", "L", "<End>", { desc = "End" })
 
 -- Clear search with <esc> and save file
 map({ "i", "n" }, "<esc>", "<cmd>w|noh<cr><esc>", { desc = "Escape and clear hlsearch" })
+
+map("n", "<leader>t", "<cmd>GoTestFunc<cr>", { desc = "go test func" })
 
 -- map("i, n, v", "A-h", "")

@@ -1,7 +1,7 @@
 return {
   "fatih/vim-go",
   --enabled = false
-  opts = function(_, opts) end,
+  -- opts = function(_, opts) end,
   config = function()
     -- vim.g.go_highlight_functions = 1
     -- vim.g.go_highlight_function_calls = 1
